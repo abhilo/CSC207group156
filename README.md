@@ -54,7 +54,6 @@ Drake.
   "token_type":"Bearer",
   "expires_in":3600
 }
-
 ```
 
 
