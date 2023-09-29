@@ -3,7 +3,7 @@
 //note: I think should we put our full names since this is an official submission
 - (Abhi?)
 - Ethan Fine
-- aria
+- Aria Coventry
 - Wilson
 - Mahek
 
