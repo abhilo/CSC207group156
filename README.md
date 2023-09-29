@@ -5,7 +5,7 @@
 - Ethan Fine
 - Aria Coventry
 - Wilson
-- Mahek
+- Mahek Cheema
 
 ## Problem Domain
 The goal of our group's project is to develop a YouTube-Spotify Playlist Converter. This project will facilitate 
