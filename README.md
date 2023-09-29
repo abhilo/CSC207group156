@@ -31,4 +31,4 @@ https://developers.google.com/youtube/v3/getting-started
 https://musicapi.com/docs/intro/
 
 ## API usage example: screenshot from Postman
-![img.png](.idea/image/img.png)
+![img.png](image/img.png)
