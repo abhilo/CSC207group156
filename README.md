@@ -5,3 +5,4 @@ just to make sure you can commit to github repo from your local repo
 - Ethan Fine
 - aria
 - Wilson
+- Mahek
