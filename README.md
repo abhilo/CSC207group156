@@ -20,7 +20,7 @@ effective alternative. The application's fundamental features will consist of:
 - **Playlist Creation:** Our application will create a new Spotify/YouTube playlist for the user, depending on the application selected.
 - **Song Retrieval:** Use a song+creator matching algorithm to search and match songs or podcasts from the YouTube playlist to the Spotify database, or from the Spotify playlist to YouTube's catalog.
 - **Playlist Creation:** Retrieved songs will be added to the newly created Spotify/YouTube playlist, or the users can export the playlist object as a save file.
-- **Other side tools:** Other possible features we may add are reordering playlist, sorting, downloading mp3s, prompting user to answer doubt if a song+creator address was not found in the other site
+- **Other side tools:** Other possible features we may add are manually reordering playlist, auto-sorting, downloading mp3s, prompting user to select a similar match if original song+creator address was not found in the conversion recipient's database
 
 ## API usage documentation links
 - **Spotify API:** (for PUT/GET requests for the user's spotify account)
