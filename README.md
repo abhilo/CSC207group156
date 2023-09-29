@@ -25,10 +25,13 @@ effective alternative. The application's fundamental features will consist of:
 ## API usage documentation links
 - **Spotify API:** (for PUT/GET requests for the user's spotify account)
 https://developer.spotify.com/documentation/web-api
-- **Youtube API:** (for PUT/GET requests for the user's youtube account)
+- **YouTube API:** (for PUT/GET requests for the user's youtube account)
 https://developers.google.com/youtube/v3/getting-started
 - **MusicAPI API:** (for GET requests to get youtube/spotify song data URLs to translate into a media object)
 https://musicapi.com/docs/intro/
 
 ## API usage example: screenshot from Postman
 ![img.png](image/img.png)
+
+## Technical problems blocking progress
+MusicAPI has a request limit unless we pay for better access. We may decide not to use this and instead access the song database from url requests via YouTube/Spotify directly.
