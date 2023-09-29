@@ -29,3 +29,6 @@ https://developer.spotify.com/documentation/web-api
 https://developers.google.com/youtube/v3/getting-started
 - **MusicAPI API:** (for GET requests to get youtube/spotify song data URLs to translate into a media object)
 https://musicapi.com/docs/intro/
+
+## API usage example: screenshot from Postman
+![img.png](.idea/image/img.png)
