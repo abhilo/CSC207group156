@@ -4,7 +4,7 @@
 - Abhishek Sharma
 - Ethan Fine
 - Aria Coventry
-- Wilson
+- Xinze Wang
 - Mahek Cheema
 
 ## Problem Domain
