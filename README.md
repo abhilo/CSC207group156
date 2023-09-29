@@ -3,9 +3,9 @@
 //note: I think should we put our full names since this is an official submission
 - (Abhi?)
 - Ethan Fine
-- aria
+- Aria Coventry
 - Wilson
-- Mahek
+- Mahek Cheema
 
 ## Problem Domain
 The goal of our group's project is to develop a YouTube-Spotify Playlist Converter. This project will facilitate 
@@ -21,7 +21,6 @@ effective alternative. The application's fundamental features will consist of:
 - **Song Retrieval:** Use a song+creator matching algorithm to search and match songs or podcasts from the YouTube playlist to the Spotify database, or from the Spotify playlist to YouTube's catalog.
 - **Playlist Creation:** Retrieved songs will be added to the newly created Spotify/YouTube playlist, or the users can export the playlist object as a save file.
 - **Other side tools:** Other possible features we may add are reordering playlist, sorting, downloading mp3s, prompting user to answer doubt if a song+creator address was not found in the other site
-
 
 ## API usage documentation links
 Spotify API: (for PUT/GET requests for the user's spotify account)
