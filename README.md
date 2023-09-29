@@ -35,3 +35,68 @@ https://musicapi.com/docs/intro/
 
 ## Technical problems blocking progress
 MusicAPI has a request limit unless we pay for better access. We may decide not to use this and instead access the song database from url requests via YouTube/Spotify directly.
+
+
+## Java Code Output 
+
+The Spotify API has a neccessary feature that needs a access token prior to making API calls, the first method
+under the Spotify class is a POST method that makes a POST request with all the valid information that is needed 
+to generate an access code.
+
+The second method is not a POST request but a GET request, it's used to make API calls for various different details such as 
+but not limited to artist details, trending charts, and even user data if the user makes it accessible. 
+
+Below is the output of method 1 generating the access code and method 2 making a method call with the artist set to as 
+Drake. 
+
+```json
+{
+  "access_token":"BQCMVlqXGrPTbw6sekbN4CwJfYyYUxS5kIjQltIJnbNZL-thgE_XLyHiwD7cdc-Xn9IthGII-zCrJ80FDNAS9E8ODi9HZjmrx_LX9J1WvssDONnQtR4",
+  "token_type":"Bearer",
+  "expires_in":3600
+}
+
+```
+
+
+```json
+{
+    "external_urls": {
+        "spotify": "https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4"
+    },
+    "followers": {
+        "href": null,
+        "total": 80293785
+    },
+    "genres": [
+        "canadian hip hop",
+        "canadian pop",
+        "hip hop",
+        "pop rap",
+        "rap"
+    ],
+    "href": "https://api.spotify.com/v1/artists/3TVXtAsR1Inumwj472S9r4",
+    "id": "3TVXtAsR1Inumwj472S9r4",
+    "images": [
+        {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab6761610000e5eb4293385d324db8558179afd9",
+            "width": 640
+        },
+        {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ab676161000051744293385d324db8558179afd9",
+            "width": 320
+        },
+        {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ab6761610000f1784293385d324db8558179afd9",
+            "width": 160
+        }
+    ],
+    "name": "Drake",
+    "popularity": 95,
+    "type": "artist",
+    "uri": "spotify:artist:3TVXtAsR1Inumwj472S9r4"
+}
+```
