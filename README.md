@@ -1,6 +1,5 @@
 # CSC207group156
 ## Group Members:
-//note: I think should we put our full names since this is an official submission
 - Abhishek Sharma
 - Ethan Fine
 - Aria Coventry
