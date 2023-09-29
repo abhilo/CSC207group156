@@ -56,7 +56,6 @@ Drake.
 }
 ```
 
-
 ```json
 {
     "external_urls": {
